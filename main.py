@@ -19,7 +19,8 @@ root.title('Buget Laptop Calculator')
 
 
 def show_selected_size():
-    showinfo(
+  '''this function shows the information on a new window'''
+  showinfo(
         title='Result',
         message=selected_size.get()
     )
